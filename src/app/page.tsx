@@ -11,7 +11,6 @@ export default function Home() {
       </header>
       <div className="grid gap-6 lg:grid-cols-[1fr_380px]">
         <aside className="rounded-xl bg-white p-5">
-          <div className="text-sm font-medium text-neutral-900">Johanna</div>
           <div className="mt-4">
             <div className="flex gap-6">
               <div className="relative aspect-[4/5] w-48 overflow-hidden rounded-xl bg-blue-100">
@@ -24,7 +23,6 @@ export default function Home() {
                 />
               </div>
               <div>
-                <p className="text-sm font-medium text-neutral-900">Stats</p>
                 <WaterTracker />
                 <SleepTracker />
               </div>
