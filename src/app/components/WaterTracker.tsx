@@ -12,7 +12,7 @@ export default function WaterTracker() {
   };
 
   return (
-    <div className="mt-6">
+    <div className="mt-2">
       <div className="mb-1 text-xs font-bold uppercase text-neutral-400">Water</div>
       <div className="flex flex-wrap">
         {Array.from({ length: 8 }).map((_, index) => {

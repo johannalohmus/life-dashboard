@@ -1,5 +1,6 @@
 import Image from "next/image";
 import WaterTracker from "./components/WaterTracker";
+import SleepTracker from "./components/SleepTracker";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
               <div>
                 <p className="text-sm font-medium text-neutral-900">Stats</p>
                 <WaterTracker />
+                <SleepTracker />
               </div>
             </div>
           </div>
